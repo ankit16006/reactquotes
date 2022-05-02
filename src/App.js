@@ -5,6 +5,8 @@ import QuoteDetail from './pages/QuoteDetail';
 import NewQuote from './pages/NewQuote';
 import NotFound from './pages/NotFound';
 import Layout from './components/layout/Layout';
+import Footer from './Footer';
+import './App.css';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
+    <Footer />
     </Layout>
   );
 }
